@@ -5,11 +5,11 @@
   /* background-color: aqua; */
 }
 .line{
-  width: 1280px;
+  width: 1450px;
   height: 5px;
   background-color: #c4b9b9;
   transform-origin: left;
-  animation: grow 4.5s forwards infinite;
+  animation: grow 5s forwards infinite;
 }
 @keyframes grow{
   0%{
@@ -32,7 +32,7 @@
   height:auto;
   width: auto;
   position: absolute;
-  /* overflow: hidden; */
+  overflow: hidden; 
 }
 .main112 img{
   width: 120%;
@@ -66,16 +66,16 @@
 }
 
 .main112{
-  animation: slide1 10s linear infinite;
+  animation: img1 10s linear infinite;
 }
 .main113{
-  animation: slide2 10s linear infinite;
+  animation: img2 10s linear infinite;
 }
 .main114{
-  animation: slide3 10s linear infinite;
+  animation: img3 10s linear infinite;
 }
 
-@keyframes slide1 {
+@keyframes img1 {
   0%{
       visibility: visible;
   }
@@ -92,7 +92,7 @@
       visibility: visible;
   }
 }
-@keyframes slide2 {
+@keyframes img2 {
   0%{
       visibility: visible;
   }
@@ -109,7 +109,7 @@
       visibility: visible;
   }
 }
-@keyframes slide3 {
+@keyframes img3{
   0%{
       visibility: hidden;
   }

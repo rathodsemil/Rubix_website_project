@@ -29,9 +29,9 @@ function App() {
            <Route path='/Blog' element={<Blog/>}></Route>
            <Route path='/Login'element={<Login/>}></Route>
           </Routes>
-        <Footer/>
+        {<Footer/> }
      </BrowserRouter>
-   
+     
    </>
   )
 }

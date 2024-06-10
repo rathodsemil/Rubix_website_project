@@ -7,6 +7,7 @@ import { TfiYoutube } from "react-icons/tfi";
 import { RiPinterestFill } from "react-icons/ri";
 import { Link } from 'react-router-dom';
 import { BsPerson } from "react-icons/bs";
+import logo from "../assets/web_logo.png"
 
 
 
@@ -48,14 +49,14 @@ const Navbar = () => {
             <div className='flex bg-white px-15 py-7 justify-around items-center  relative text-gray-700 border-b-4'>
                 <div className='absolute left-5'>
                     <Link to="/">
-                        <img className='w-18% max-w-32 ' src="./src/Componetes/img/Rubix/web_logo.png" alt="" />
+                        <img className='w-18% max-w-32 ' src={logo} alt="" />
                     </Link>
                 </div>
                 <div className='absolute left-13 '>
 
                     <ul className='flex space-x-10 '>
                         <li>
-                            <Link className='text-lg' to="/">Home</Link>
+                            <Link className='text-lg hover:text-green-900' to="/">Home</Link>
                         </li>
                         <li>
                             <Link className='text-lg  ' to="/shoppage">Shop</Link>
